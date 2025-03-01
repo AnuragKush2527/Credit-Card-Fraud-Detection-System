@@ -1,10 +1,10 @@
 # **Credit Card Fraud Detection System**
 
-📌 #Project Overview
+# 📌 Project Overview
 
 This project aims to detect fraudulent credit card transactions using machine learning. We use the Credit Card Fraud Detection dataset from Kaggle, which contains anonymized transaction details and labels indicating fraud or legitimate transactions. A Logistic Regression model is trained to classify transactions as fraudulent or legitimate.
 
-📊 #Dataset
+# 📊 Dataset
 
 The dataset used in this project is publicly available on Kaggle:🔗https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
