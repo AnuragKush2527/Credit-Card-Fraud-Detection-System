@@ -1,14 +1,14 @@
-Credit Card Fraud Detection System
+#**Credit Card Fraud Detection System**
 
-📌 Project Overview
+📌 #Project Overview
 
 This project aims to detect fraudulent credit card transactions using machine learning. We use the Credit Card Fraud Detection dataset from Kaggle, which contains anonymized transaction details and labels indicating fraud or legitimate transactions. A Logistic Regression model is trained to classify transactions as fraudulent or legitimate.
 
-📊 Dataset
+📊 #Dataset
 
 The dataset used in this project is publicly available on Kaggle:🔗https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-Dataset Description
+#Dataset Description
 
 The dataset contains 284,807 transactions.
 
@@ -16,7 +16,7 @@ It includes 30 features, with the Class column indicating fraud (1) or legitimat
 
 Features are numerical, transformed using PCA (Principal Component Analysis).
 
-How to Download the Dataset
+#How to Download the Dataset
 
 Visit the dataset link.
 
@@ -29,26 +29,26 @@ If using Google Colab, download the dataset with:
 !kaggle datasets download -d mlg-ulb/creditcardfraud
 !unzip creditcardfraud.zip
 
-🛠️ Installation & Setup
+🛠️ #Installation & Setup
 
-Step 1: Clone the Repository
+#Step 1: Clone the Repository
 
 git clone https://github.com/anuragkush2527/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
 
-Step 2: Install Dependencies
+#Step 2: Install Dependencies
 
 Ensure you have Python installed, then install dependencies using:
 
 pip install -r requirements.txt
 
-Step 3: Run the Jupyter Notebook
+#Step 3: Run the Jupyter Notebook
 
 Launch Jupyter Notebook and open fraud_detection.ipynb:
 
 jupyter notebook
 
-📌 Project Workflow
+📌 #Project Workflow
 
 Load dataset (creditcard.csv)
 
@@ -78,7 +78,7 @@ Model Evaluation
 
 Compute accuracy on training & test sets
 
-🔍 Results
+🔍 #Results
 
 Accuracy on Training Data: 95.42%
 
